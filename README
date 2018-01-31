@@ -1,3 +1,8 @@
+This project would crawl internet starting from from the seed sites (Table: seed_sites) 
+and find out if a site is powerd by Wordpress or Drupal.
+
+If it is powered by Wordpress or Drupal, then get the contact details like email address, twitter, facebook address, and phone number and updated into DB.
+
 To get the potential customers, please follow the below steps.
 
 1. Run the SQL (setup/) to created DB and tables
