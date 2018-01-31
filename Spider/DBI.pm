@@ -3,9 +3,9 @@ use Class::DBI 3.0.14;
 use base 'Class::DBI';
 use Config::Tiny;
 
-#my $dsn      = 'dbi:mysql:database=spider;host=scandb.ctr1p8f4gcrw.us-west-2.rds.amazonaws.com;port=:3306';
-#my $user     = 'scanuser';
-#my $password = 'v33r&v&n&llur';
+#my $dsn      = 'dbi:mysql:database=spider;host=xxx.amazonaws.com;port=:3306';
+#my $user     = 'xxx';
+#my $password = 'xxx';
 
 sub db_Main {
   my $self = shift;
