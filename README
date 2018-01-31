@@ -1,0 +1,215 @@
+To get the potential customers, please follow the below steps.
+
+1. Run the SQL (setup/) to created DB and tables
+2. Update DB login credentials in spider.conf
+3. Install the Perl Modules
+4. Run the crawler scripts. The crawler logs the info in the log files. Then Run the other script.
+
+
+Modules Installed:
+1. Domain::PublicSuffix
+2. WWW::Mechanize::Frames
+3. Data::Validate::URI
+4. Class::DBI
+5. Config::Tiny
+
+The complete list of module dependency is as follows.
+AutoLoader             5.74
+Carp                   1.36
+Class::Accessor        0.34
+Class::Accessor::Fast   0.34
+Class::DBI           3.0.17
+Class::DBI::Column         
+Class::DBI::ColumnGrouper       
+Class::DBI::Query          
+Class::DBI::Relationship       
+Class::DBI::Relationship::HasA       
+Class::DBI::Relationship::HasMany       
+Class::DBI::Relationship::MightHave       
+Class::DBI::SQL::Transformer       
+Class::DBI::Search::Basic       
+Class::Data::Inheritable   0.08
+Class::Trigger         0.14
+Clone                  0.38
+Clone::PP              1.06
+Compress::Raw::Zlib   2.068
+Compress::Zlib        2.068
+Config               5.022001
+Config::Tiny           2.23
+DBD::mysql            4.033
+DBI                   1.634
+DBI::Const::GetInfo::ANSI       
+DBI::Const::GetInfo::ODBC       
+DBI::Const::GetInfoType       
+DBIx::ContextualFetch   1.03
+Data::Dumper          2.158
+Data::Validate::Domain   0.14
+Data::Validate::IP     0.27
+Data::Validate::URI    0.07
+Digest::MD5            2.54
+Digest::base           1.16
+Domain::PublicSuffix   0.14
+Domain::PublicSuffix::Default   0.14
+DynaLoader             1.32
+Encode                 2.72
+Encode::Alias          2.19
+Encode::Byte           2.04
+Encode::Config         2.05
+Encode::Encoding       2.07
+Encode::Locale         1.05
+Encode::MIME::Name     1.01
+Errno                  1.23
+Exporter               5.72
+Exporter::Heavy        5.72
+Fcntl                  1.13
+File::Glob             1.24
+File::GlobMapper      1.000
+File::Spec             3.56
+File::Spec::Unix       3.56
+Gearman::Client        1.11
+Gearman::JobStatus         
+Gearman::Objects           
+Gearman::ResponseParser       
+Gearman::ResponseParser::Taskset       
+Gearman::Task              
+Gearman::Taskset           
+Gearman::Util              
+HTML::Entities         3.69
+HTML::Form             6.03
+HTML::HeadParser       3.71
+HTML::Parser           3.72
+HTML::PullParser       3.57
+HTML::Tagset           3.20
+HTML::TokeParser       3.69
+HTTP::Config           6.11
+HTTP::Cookies          6.01
+HTTP::Cookies::Netscape   6.01
+HTTP::Date             6.02
+HTTP::Headers          6.11
+HTTP::Headers::Util    6.11
+HTTP::Message          6.11
+HTTP::Request          6.11
+HTTP::Request::Common   6.11
+HTTP::Response         6.11
+HTTP::Status           6.11
+I18N::Langinfo         0.12
+IO                     1.35
+IO::Compress::Adapter::Deflate  2.068
+IO::Compress::Base    2.068
+IO::Compress::Base::Common  2.068
+IO::Compress::Gzip    2.068
+IO::Compress::Gzip::Constants  2.068
+IO::Compress::RawDeflate  2.068
+IO::Compress::Zlib::Extra  2.068
+IO::File               1.16
+IO::HTML              1.001
+IO::Handle             1.35
+IO::Seekable            1.1
+IO::Socket             1.38
+IO::Socket::INET       1.35
+IO::Socket::IP         0.37
+IO::Socket::SSL       2.024
+IO::Socket::SSL::PublicSuffix       
+IO::Socket::UNIX       1.26
+IO::Uncompress::Adapter::Inflate  2.068
+IO::Uncompress::Base  2.068
+IO::Uncompress::Gunzip  2.068
+IO::Uncompress::RawInflate  2.068
+Ima::DBI               0.35
+LWP                    6.15
+LWP::MemberMixin           
+LWP::Protocol          6.15
+LWP::Protocol::http        
+LWP::Protocol::https   6.06
+LWP::UserAgent         6.15
+List::Util             1.41
+Net::Domain::TLD       1.75
+Net::HTTP              6.13
+Net::HTTP::Methods     6.13
+Net::HTTPS             6.13
+Net::IDN::Encode        2.4
+Net::IDN::Punycode    1.102
+Net::IDN::UTS46       1.001
+Net::IDN::UTS46::_Mapping      9
+Net::SSLeay            1.72
+NetAddr::IP           4.079
+NetAddr::IP::InetBase   0.08
+NetAddr::IP::Lite      1.57
+NetAddr::IP::Util      1.53
+NetAddr::IP::Util_IS      1
+POSIX                1.53_01
+PerlIO                 1.09
+PerlIO::scalar         0.23
+Scalar::Util           1.41
+SelectSaver            1.02
+Socket                2.018
+Spider                     
+Spider::DBI                
+Spider::ExcludeCrawl       
+Spider::FoundSites         
+Spider::PotentialCustomer       
+Spider::ScanLink           
+Spider::SeedSites          
+Storable             2.53_01
+String::CRC32           1.5
+Sub::Name              0.14
+Symbol                 1.07
+Tie::Hash              1.05
+Time::HiRes          1.9726
+Time::Local          1.2300
+UNIVERSAL::moniker     0.08
+URI                    1.71
+URI::Escape            3.31
+URI::URL               5.04
+URI::WithBase          2.20
+URI::_generic          1.71
+URI::_idna             1.71
+URI::_punycode         1.71
+URI::_query            1.71
+URI::_server           1.71
+URI::http              1.71
+URI::https             1.71
+Unicode::Normalize     1.25
+WWW::Mechanize         1.75
+WWW::Mechanize::Frames   0.03
+WWW::Mechanize::Link   1.75
+XSLoader               0.20
+base                   2.22
+bytes                  1.04
+constant               1.33
+fields                 2.17
+integer                1.01
+lib                    0.63
+overload               1.26
+overloading            0.02
+parent                0.232
+re                     0.32
+unicore::Heavy.pl          
+unicore::To::Cf.pl         
+unicore::lib::Bc::AL.pl       
+unicore::lib::Bc::AN.pl       
+unicore::lib::Bc::BN.pl       
+unicore::lib::Bc::CS.pl       
+unicore::lib::Bc::EN.pl       
+unicore::lib::Bc::ES.pl       
+unicore::lib::Bc::ET.pl       
+unicore::lib::Bc::L.pl       
+unicore::lib::Bc::NSM.pl       
+unicore::lib::Bc::ON.pl       
+unicore::lib::Bc::R.pl       
+unicore::lib::Ccc::VR.pl       
+unicore::lib::Gc::Cn.pl       
+unicore::lib::Gc::M.pl       
+unicore::lib::Jt::D.pl       
+unicore::lib::Jt::R.pl       
+unicore::lib::Jt::T.pl       
+unicore::lib::Perl::Assigned.pl       
+utf8                   1.17
+utf8_heavy.pl              
+vars                   1.03
+version              0.9912
+version::regex       0.9912
+version::vxs         0.9912
+warnings               1.34
+warnings::register     1.04
+
